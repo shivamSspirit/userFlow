@@ -1,0 +1,12 @@
+.final-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.iconCheck{
+    background-color: var(--mainColor);
+    width: 51px;
+    height: 51px;
+    border-radius: 50%;
+}

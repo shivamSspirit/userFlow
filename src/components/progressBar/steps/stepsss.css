@@ -1,0 +1,60 @@
+@import url(../../../assest/theme/root.css);
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.stepSection .circles {
+    padding: 0px 30px;
+    position: relative;
+}
+
+.stepSection:not(:last-child) .circles::after {
+    content: '';
+    width: 61%;
+    height: 3px;
+    position: absolute;
+    z-index: 1;
+    margin: auto;
+    background-color: rgb(226, 222, 231);
+    top: 0;
+    left: 4.3rem;
+    bottom: 0;
+}
+
+
+.stepSection:not(:last-child) .circles::after {
+    height: 1px;
+}
+
+
+
+.stepSection:not(:last-child).selected>.circles::after,
+.stepSection:not(:last-child).selected~.stepSection:not(:last-child).selected>.circles::after {
+    height: 2px;
+    width: 61%;
+    background-color: var(--mainColor);
+}
+
+.cir {
+    width: 39px;
+    height: 39px;
+    line-height: 25px;
+    background-color: transparent;
+    color: var(--lightblack);
+    border-radius: 50%;
+    border: 1px solid var(--lightGray);
+    cursor: pointer;
+    display: flex;
+    align-content: center;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.selected .cir {
+    color: white;
+    background-color:  var(--mainColor);
+    border-color: aquamarine;
+}

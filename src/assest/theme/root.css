@@ -1,0 +1,10 @@
+:root{
+    --aliceblue: rgb(213, 232, 248);
+    --white: white;
+    --black: black;
+    --lightGray:rgb(205, 202, 202);
+    --darkGray:rgb(160, 160, 160);
+    --lightBlack:rgb(56, 53, 53);
+    --fonts: 'Inter', sans-serif;
+    --mainColor:rgb(107, 51, 211);
+}
