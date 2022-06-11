@@ -55,6 +55,8 @@
 
 .selected .cir {
     color: white;
-    background-color:  var(--mainColor);
+    background-color: var(--mainColor);
     border-color: aquamarine;
 }
+
+
