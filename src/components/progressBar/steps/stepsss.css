@@ -32,7 +32,7 @@
 
 .stepSection:not(:last-child).selected>.circles::after,
 .stepSection:not(:last-child).selected~.stepSection:not(:last-child).selected>.circles::after {
-    height: 2px;
+    height: 1.3px;
     width: 61%;
     background-color: var(--mainColor);
 }
@@ -51,6 +51,7 @@
     justify-items: center;
     justify-content: center;
     align-items: center;
+    transition: 0.4 ease;
 }
 
 .selected .cir {
@@ -58,5 +59,3 @@
     background-color: var(--mainColor);
     border-color: aquamarine;
 }
-
-
