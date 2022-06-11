@@ -65,7 +65,7 @@ function Form() {
                 </div>
                 <div>
                     {dispalyPage()}
-                    <button className='space-btn' onClick={page === titles.length - 1 ? handleUser : handelSPace}>{`${page === titles.length - 1 ? "launch legend" : 'createSpace'}`}</button>
+                    <button className='space-btn' onClick={page === titles.length - 1 ? handleUser : handelSPace}>{`${page === titles.length - 1 ? "launch legend" : 'Create Space'}`}</button>
                 </div>
             </div>
         </div>

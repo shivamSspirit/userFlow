@@ -1,8 +1,9 @@
 :root{
-    --aliceblue: rgb(213, 232, 248);
+    --aliceblue: rgb(240, 240, 240);
     --white: white;
     --black: black;
-    --lightGray:rgb(205, 202, 202);
+    --lightGray:rgb(121, 119, 162);
+    --bordercolor:rgb(207, 206, 206);
     --darkGray:rgb(160, 160, 160);
     --lightBlack:rgb(56, 53, 53);
     --fonts: 'Inter', sans-serif;
