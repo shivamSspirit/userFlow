@@ -1,6 +1,5 @@
 import React from 'react'
 import './stepsss.css'
-import { useGlobalFormValues } from '../../../fromDataContext'
 
 function Stepsss(props) {
     console.log(props)
